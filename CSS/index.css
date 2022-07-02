@@ -40,11 +40,17 @@ body .headers{
 
 #blog-preview .u-url {
     font-size: 130%;
+    text-transform: uppercase;
+    text-decoration: none;
     color: white;
-    background: rgba(0,0,0,0.4);
-    padding: 1% 1%;
+    font-weight: bold;
+}
+
+#blog-preview .u-url:hover {
+    background: rgba(223, 45, 134, 0.8);
+    text-decoration: underline;
     border-radius: 10px;
-    margin-left: 2%;
+    padding: 0.5%;
 }
 
 #portfolio-preview {
@@ -60,12 +66,18 @@ body .headers{
 }
 
 #portfolio-preview .u-url {
-    font-size: 130%;
+    font-size: 120%;
     color: white;
-    padding: 1% 1%;
-    background: rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#portfolio-preview .u-url:hover {
+    background: rgba(223, 45, 134, 0.8);
+    text-decoration: underline;
     border-radius: 10px;
-    margin-left: 2%;
+    padding: 0.5%;
 }
 
 #about-header {
@@ -83,11 +95,17 @@ body .headers{
 #call-to-action.u-url {
     font-size: 150%;
     font-weight: bold;
-    background: rgba(0,0,0,0.4);
-    color: rgba(22, 255, 240, 0.9);
-    padding: 10px 10px;
+    color: white;
     text-decoration: none;
-    border-radius: 70px;
+    text-transform: uppercase;
+}
+
+#call-to-action.u-url:hover {
+    text-decoration: underline;
+    background: rgba(223, 45, 134, 0.8);
+    text-decoration: underline;
+    border-radius: 15px;
+    padding: 0.5%;
 }
 
 @media screen and (max-width: 850px) {

@@ -27,13 +27,14 @@
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    padding: 10px 20px;
+    padding: 15px;
     border-radius: 70px;
     cursor: pointer;
 }
 
 .nav-bar .u-url:hover {
-    background: rgba(223, 45, 134, 0.8)
+    background: rgba(223, 45, 134, 0.8);
+    text-decoration: underline;
 }
 
 .logo {
