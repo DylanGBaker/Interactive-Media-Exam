@@ -1,0 +1,85 @@
+body{
+    font-family: 'Josefin Slab', serif;
+    background: rgba(0,0,0,0.4) url(../Test_Images/Website\ Backgroundjpg.jpg) repeat fixed 100% ;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding-bottom: 25%;
+}
+
+body .headers{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+footer {
+    height: 100px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+/*Classes for the main hyperlinks*/
+
+#hyperlinks{
+    width: 100vw;
+}
+
+#hyperlinks ul{ 
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+#hyperlinks li{
+    margin: 0 5%;
+}
+
+#hyperlinks .u-url{ 
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 150%;
+    font-weight: bold;
+    text-decoration: none;
+    background: rgba(223, 45, 134, 1);
+    padding: 10px 20px;
+    border-radius: 70px;
+}
+
+#hyperlinks .u-url:hover {
+    background: rgba(223, 45, 134, 0.8)
+}
+
+
+
+/* Media query for different screen size*/
+
+
+/*______________________________________________________________________________________________________________________________*/
+
+
+/*Classes for the about page*/
+
+#about_me {
+    margin: 250px 900px 0 100px;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+}
+
+#about_me .headers {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 400%;
+    color: white;
+}
+
+#about_me .e-content{
+    color: white;
+    font-size: 150%
+}
+
+/* Media query for different screen size*/
+
+/*______________________________________________________________________________________________________________________________*/

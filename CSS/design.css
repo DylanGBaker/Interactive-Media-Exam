@@ -1,0 +1,49 @@
+body{
+    font-family: 'Josefin Slab', serif;
+    background: rgba(0,0,0,0.4) url(../Test_Images/Website_Backgroundjpg.jpg) repeat fixed 100% ;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding-bottom: 25%;
+}
+
+body .headers{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+footer {
+    height: 100px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+/*Classes for the Design page*/
+
+#design-pdf {
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 70vh;
+}
+
+#design-header .headers {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 400%;
+    color: white;
+}
+
+#pdf.e-content {
+    width: 100%;
+    height: 70vh;
+}
+
+@media screen and (max-width: 850px) {
+
+    #design-header .headers {
+        font-size: 200%;
+        justify-content: center;
+    }
+}

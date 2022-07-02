@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Josefin Slab', serif;
+    background: rgba(0,0,0,0.4) url(../Test_Images/Website_Backgroundjpg.jpg) repeat fixed 100%;
+    background-blend-mode: darken;
+    background-size: cover; 
+}
+
+body .headers{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+/*Classes for home page*/
+
+.grid_content {
+    display: grid;
+    gap: 7%;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 4% 2% 0 2%;
+}
+
+.grid_column_span_2 {
+    grid-column: span 2;
+}
+
+#blog_preview {
+    border-radius: 20px;
+    backdrop-filter: blur(100px);
+    color: white;
+    background: rgba(0, 238, 255, 0.4);
+}
+
+#home_blog_section_content {
+    font-size: 150%;
+    margin: 2% 2%;
+}
+
+#blog_preview .u-url {
+    font-size: 130%;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    padding: 1% 1%;
+    border-radius: 10px;
+    margin-left: 2%;
+}
+
+#portfolio_preview {
+    border-radius: 20px;
+    backdrop-filter: blur(100px);
+    color: white;
+    background: rgba(0, 238, 255, 0.4);
+}
+
+#home_portfolio_section_content {
+    font-size: 150%;
+    margin: 2% 2%;
+}
+
+#portfolio_preview .u-url {
+    font-size: 130%;
+    color: white;
+    padding: 1% 1%;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin-left: 2%;
+}
+
+#about_header {
+    color: white;
+    text-align: left;
+    font-size: 350%;
+}
+
+#about{
+    color: white;
+    text-align: left;
+    font-size: 200%;
+}
+
+#call_to_action.u-url {
+    font-size: 150%;
+    font-weight: bold;
+    background: rgba(0,0,0,0.4);
+    color: rgba(22, 255, 240, 0.9);
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 70px;
+}
+
+@media screen and (max-width: 850px) {
+    
+    .grid_content {
+        display: grid;
+        grid-template-rows: repeat(3, 0.1fr);
+        gap: 2%;
+    }
+
+    #blog_preview {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    #portfolio_preview {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    #about {
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    #home_blog_section_content {
+        font-size: 100%;
+        margin: 4% 4%;
+    }
+
+    #blog_preview .u-url {
+        font-size: 100%;
+    }
+
+    #home_portfolio_section_content {
+        font-size: 100%;
+        margin: 4% 4%;
+    }
+
+    #portfolio_preview .u-url {
+        font-size: 100%;
+    }
+
+    #about_header {
+        color: white;
+        text-align: left;
+        font-size: 200%;
+    }
+
+    #about{
+        color: white;
+        text-align: left;
+        font-size: 100%;
+    }
+
+    #call_to_action.u-url {
+        font-size: 100%;
+    }
+}

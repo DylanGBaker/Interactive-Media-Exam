@@ -1,0 +1,61 @@
+body{
+    font-family: 'Josefin Slab', serif;
+    background: rgba(0,0,0,0.4) url(../Test_Images/Website_Backgroundjpg.jpg) repeat fixed 100% ;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding-bottom: 25%;
+}
+
+body .headers{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+/*Classes for the Portfolio page*/
+
+.portfolio {
+    width: 95%;
+    height: 40%;
+    background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+}
+
+.image {
+    margin-right: 900px;
+    width: 40%;
+}
+
+.image .e-content{
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+
+.description {
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    text-align: left;
+    padding: 5px 5px;
+}
+
+.description .u-url {
+    color: rgba(22, 255, 240, 0.9);
+}
+
+@media screen and (max-width: 850px) {
+    .image {
+        width: 80%;
+    }
+
+    .portfolio {
+        height: 70%;
+    }
+
+    .description.e-content {
+        padding: 10px 10px;
+    }
+}

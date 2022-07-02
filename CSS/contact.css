@@ -1,0 +1,38 @@
+body{
+    font-family: 'Josefin Slab', serif;
+    background: rgba(0,0,0,0.4) url(../Test_Images/Website_Backgroundjpg.jpg) repeat fixed 100% ;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding-bottom: 25%;
+}
+
+body .headers{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+footer {
+    height: 100px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+/*Classes for the Contact page*/
+
+#contact {
+    margin: 50px 400px 0px 400px;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+}
+
+#contact .e-content{
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
+

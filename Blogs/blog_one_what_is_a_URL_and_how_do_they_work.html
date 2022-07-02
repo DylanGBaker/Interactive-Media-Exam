@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog One - What is a URL</title>
+    <link rel="stylesheet" href="../CSS/blogs.css" />
+    <link rel="stylesheet" href="../CSS/navbar.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="../JavaScript/blog.js"></script>
+    <script defer src="../JavaScript/navbar_toggle.js"></script>
+  </head>
+  <body>
+    <nav class="h-card nav-bar">
+      <ul class="nav-list">
+        <li class="p-name u-url">Home</li>
+        <li class="p-name u-url">Blogs</li>
+        <li class="p-name u-url">Design</li>
+        <li class="p-name u-url">Portfolio</li>
+        <li class="p-name u-url">Contact</li>
+      </ul>
+      <section class="Hamburger_Logo">
+        <section id="line"></section>
+        <section id="line"></section>
+        <section id="line"></section>
+      </section>
+    </nav>
+
+    <article id="blog_post" class="h-entry">
+      <header class="headers">
+        <h1 class="p-name">What is a URL and how do they work?</h1>
+      </header>
+
+      <p class="e-content">
+        A Uniform Resource Locator (URL) is a string used for addresses of
+        resources on the internet such as documents or images (objects). It acts
+        the same as an address when trying to find a location. An address for a
+        house will have info like the house number, the street, and the city for
+        example. To find an object on the internet it also has an address to
+        locate it. It does not consist of a house number or the city the server
+        is in, but it does have its own protocol which will be discussed in this
+        text. [1] [3]
+      </p>
+
+      <p class="e-content">
+        A URL can be considered a web address but what makes up the address? It
+        is made up of the scheme, domain name, port (optional), path to the
+        file, parameters, and the anchor (optional). [1]
+      </p>
+
+      <header class="paragraph_headers">
+        <h2>The Scheme</h2>
+      </header>
+
+      <p class="e-content">
+        This is the protocol that the user’s browser uses to get the resource
+        and allows the transfer of data between computers and servers on the
+        internet. The one that majority of people are familiar with is HTTP or
+        HTTPS. The ‘S’ shows that the protocol is secure and is encrypted in
+        some way to protect the data that is being transferred. These are not
+        the only protocols. There are other protocols such as ‘mailto’ or
+        ‘NNTP.’ A protocol can be made for different objects on the internet.
+        [1] For example, ‘NNTP’ is the protocol that can be used for news
+        articles. [3]
+      </p>
+      <header class="paragraph_headers">
+        <h2>Domain Name and Port</h2>
+      </header>
+
+      <p class="e-content">
+        The domain name shows the protocol which web server to find and request
+        the resource from. We typically do not add the port number as the
+        protocol knows which port the URL is using. The port is like the gate to
+        a house. It allows the port on your computer to communicate with the
+        servers’ port by allowing data to transfer between the “gates.” [1]
+      </p>
+
+      <header class="paragraph_headers">
+        <h2>Path to the File</h2>
+      </header>
+      <p class="e-content">
+        The path to the resource that the user is looking for on the web server.
+        This is when a user goes to the home page of a web page and then looks
+        at a different section such as the shoe collection in a store. If the
+        user then decides to click on a shoe and look more into it, it will take
+        the user to a different path to show the resources on that path on the
+        web server. [1]
+      </p>
+
+      <header class="paragraph_headers">
+        <h2>Parameters</h2>
+      </header>
+      <p class="e-content">
+        These are just extra words that the web server is given in the case that
+        the web server must do other stuff before sending the resource back to
+        the user. This depends on the web server owner as not all web servers
+        will use extra parameters before sending the resource back. The
+        parameters are key-value pairs which is important for data structures
+        such as maps in computer science. Although complicated it is interesting
+        to see its applications in algorithms. [1]
+      </p>
+
+      <header class="paragraph_headers">
+        <h2>Anchor</h2>
+      </header>
+
+      <p class="e-content">
+        The anchor is not necessary but can be a part of the URL. It acts as a
+        bookmark and helps the browser go to the bookmark when showing the
+        resource to the user. It is not sent to the server as a request but used
+        by the browser. Almost like sending a video to someone with a time stamp
+        or when you research something and you click on the first link, it might
+        take you to the part of the resource relevant to what you searched.
+      </p>
+
+      <p class="e-content">
+        There are different types of URLs but the ones we are probably familiar
+        with are the absolute and relative URLs. An absolute URL has everything
+        from the above that the web needs to find the resource. A relative URL
+        does not contain everything that the web needs. It most commonly
+        shortens the path of the URL. [1] [2] For example:
+      </p>
+
+      <p class="e-content">
+        Absolute URL: https://www.pandas.org/docs/learn/environment/food (Pretty
+        sure this does not exist so if you try it, and it does it is a
+        coincidence)
+      </p>
+
+      <p class="e-content">Relative URL: https://www.pandas.org/docs/food</p>
+
+      <p class="e-content">
+        So, what are URLs and how do they work? They are addresses that have a
+        protocol and that allows the browser to search for the address and allow
+        a user access to what is stored at that address provided it exists.
+      </p>
+    </article>
+
+    <section id="blog_post_citations" class="h-entry">
+      <header class="headers"><h1 class="p-name">Citations</h1></header>
+      <article>
+        <p class="e-content">
+          [1] Mozilla, "mdn web docs_," 1 February 2022. [Online]. Available:
+          <cite
+            >https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL</cite
+          >
+          [Accessed 27 March 2022].
+        </p>
+      </article>
+
+      <article>
+        <p class="e-content">
+          [2] Microsoft, "Microsoft," 27 August 2020. [Online]. Available:
+          <cite
+            >https://docs.microsoft.com/en-us/sql/ado/guide/data/absolute-and-relative-urls?view=sql-server-ver15#:~:text=An%20absolute%20URL%20contains%20all,URL%20as%20a%20starting%20point</cite
+          >
+          https://docs.microsoft.com/en-us/sql/ado/guide/data/absolute-and-relative-urls?view=sql-server-ver15#:~:text=An%20absolute%20URL%20contains%20all,URL%20as%20a%20starting%20point
+          [Accessed 28 March 2022].
+        </p>
+      </article>
+
+      <article>
+        <p class="e-content">
+          [3] T. Berners-Lee, R. Cailliau, A. Luotonen, H. F. Nielsen and A.
+          Secret, "The World-Wide Web," in The World-Wide Web, Communications of
+          the ACM, 1994, pp. 791-798.
+        </p>
+      </article>
+    </section>
+    <footer></footer>
+  </body>
+</html>
