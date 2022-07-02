@@ -95,10 +95,17 @@ body .headers{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
-    background: rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+}
+
+.about-blog .e-content .p-name.u-url:hover {
+    background: rgba(223, 45, 134, 0.8);
     padding: 4px 4px;
     border-radius: 10px;
+    text-decoration: underline;
 }
+
+
 
 @media screen and (max-width: 1400px) {
     .about-blog .e-content{
