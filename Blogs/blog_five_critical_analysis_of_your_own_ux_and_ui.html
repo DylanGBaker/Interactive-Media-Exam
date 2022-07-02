@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="../CSS/blogs.css" />
     <link rel="stylesheet" href="../CSS/navbar.css" />
+    <link rel="stylesheet" href="../CSS/footer.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap"
       rel="stylesheet"
@@ -23,6 +24,7 @@
     />
     <script defer src="../JavaScript/blog.js"></script>
     <script defer src="../JavaScript/navbar_toggle.js"></script>
+    <script defer src="../JavaScript/footer.js"></script>
   </head>
   <body>
     <nav class="h-card nav-bar">
@@ -43,180 +45,186 @@
       </section>
     </nav>
 
-    <article id="blog_post" class="h-entry">
-      <header class="headers">
-        <h1 class="p-name">Analysis of my Websites UX and UI Design</h1>
-      </header>
+    <main>
+      <article id="blog_post" class="h-entry">
+        <header class="headers">
+          <h1 class="p-name">Analysis of my Websites UX and UI Design</h1>
+        </header>
 
-      <p class="e-content">
-        The UI and UX concepts I used for my website were found in a lecture
-        that was given by Peta Goldberg. User Experience (UX) is what allows a
-        person to perform actions on an interface. User Interface (UI) is what
-        gives the interface an aesthetic and creates an emotional connection
-        with the user. [1]
-      </p>
-
-      <p class="e-content">
-        Why is this important? The reason we make a website is for a user to
-        traverse through it and experience the content that is on the website.
-        Without UX and UI people probably will not interact with your website.
-        As mentioned, the UI creates an emotional connection with the user. If
-        the UI is designed poorly the user may establish a bad emotional
-        connection with the website and hence, they probably will not come back
-        to the website. As a designer and developer, you want people to come
-        back and possibly even share it with people that they know. So UX and UI
-        design is important. [1]
-      </p>
-
-      <header class="paragraph_headers">
-        <h2>What could be better or is a bad idea?</h2>
-      </header>
-
-      <p class="e-content">
-        I’m going to start with what could be better or what was a bad design
-        choice. I prefer to end on a good note.
-      </p>
-
-      <header class="paragraph_subheaders">
-        <h3>Design Section:</h3>
-      </header>
-      <p class="e-content">
-        In the design section I embedded a pdf for the style guide and
-        wireframes. I had seen this used on other websites, but it was probably
-        also because I was lazy to do the CSS and HTML for this section. So, I
-        just assumed that it was a standard thing to do on a website. It also
-        made sense to me to have that stuff in a pdf. However, from feedback and
-        looking at it again it does work but it seems quite disconnected from my
-        websites experience. My website uses dark colours. The embedded pdf is
-        white and the page numbers at the top have a different font. This does
-        feel weird and sort of creates a disconnect from what I have put on the
-        page and the style that I am going for. It creates a negative emotional
-        connection which is what I don’t want. I will reimplement this using
-        HTML and CSS.
-      </p>
-      <header class="paragraph_subheaders">
-        <h3>Responsiveness:</h3>
-      </header>
-      <p class="e-content"></p>
-      <header class="paragraph_subheaders">
-        <h3>About me section:</h3>
-      </header>
-
-      <p class="e-content">
-        Due to time constraints the about me section is not very interesting. It
-        needs more work and more styling just so that it does not feel as if it
-        is completely different to everything else and therefore creating a
-        negative emotional response. The same goes for the contact me section.
-      </p>
-
-      <header class="paragraph_subheaders">
-        <h3>General Stuff:</h3>
-      </header>
-
-      <p class="e-content">
-        I don’t have a footer or header and the text of blog posts for example
-        are quite close to the top and the bottom which makes navigating and
-        reading the blog posts difficult near the top and the bottom.
-      </p>
-
-      <p class="e-content">
-        The blog posts make up a large chunk of the content on the website and
-        so people will spend a large amount of time there. I would like to make
-        this area the most comfortable because of that.
-      </p>
-
-      <p class="e-content">
-        The fonts I chose were based off the lectures which shows that in
-        general serif fonts are good to use for readability [1]. However, the
-        font that I chose although it is serif, could probably be better in
-        terms of readability. It does work but I do think I could choose a
-        different style of serif font for the fonts that are not headings. The
-        headings are using san serif. For now, it is working but it has been
-        suggested to try and make them both serifs. I am using iterative design
-        to make my website so I will try with both using serif and vice versa to
-        see which one people prefer.
-      </p>
-
-      <p class="e-content">
-        The blog section opens a new tab when you click on a blog post. Although
-        this is the way that I prefer to view things on the web it is not the
-        standard. If it’s the same site, then it’s better to just redirect the
-        user to the blog post rather than opening it up in a new tab.
-      </p>
-
-      <p class="e-content">
-        Feedback is also important with user interfaces. I would like to add
-        some feedback on tabs like when someone is on blog post 1 then that
-        button or link is highlighted.
-      </p>
-
-      <header class="paragraph_headers">
-        <h2>What is working?</h2>
-      </header>
-      <p class="e-content">
-        I’ll start with the home page. I tried to make use of a law called the
-        Hick’s Law and I used a call to action (CTA). Hick’s Law states that,
-        “The time it takes to make a decision increases with the number of
-        complexity choices [1].” I implemented this with the different sections
-        that you can go to on my website. I did not add more than what I needed
-        and so people don’t feel overwhelmed with the choices they have.
-      </p>
-      <p class="e-content">
-        The CTA I used to try and interest a user in finding out more about me.
-        I would like to add more for the blog posts and the portfolio pieces.
-      </p>
-      <p class="e-content">
-        The home page also made use of the Law of Locality [1]. These are as
-        follows:
-      </p>
-      <p class="e-content">
-        • Law 1: “Put an element where it will effect change [1].”
-      </p>
-      <p class="e-content">
-        • Law 2: “If an element effects change across the entire area, put it
-        above the area [1].”
-      </p>
-      <p class="e-content">
-        • Law 3: “If an element is far from where it effects change, make it pop
-        [1].”
-      </p>
-
-      <p class="e-content">
-        I used these laws for the redirect links in the nav bar. They affect the
-        entire area of the website when clicked on and so put it right at the
-        top of the website. I was originally going to put these links along the
-        left side of the page but with the number of links and with a 1080p
-        screen it seemed underwhelming and empty and so spreading them across
-        the top made the nav bar feel fuller and appeared to be better due to
-        the law of locality [1].
-      </p>
-      <p class="e-content">
-        The blog section shows a snippet of the blog. The idea behind this was
-        by using the Zeigarnik Effect. The Zeigarnik Effect is as follows,
-        “People remember uncompleted or interrupted tasks better than completed
-        tasks [1].” I was trying to pique interest in the user to read the blogs
-        by only giving some of the blog post.
-      </p>
-      <p class="e-content">
-        I wanted my site to be friendly and not formal or business like. To give
-        that feeling I chose a background picture that is formal. All the text
-        or buttons with a coloured background are rounded. This creates a more
-        friendly visual to the site which is what I wanted. [1]
-      </p>
-    </article>
-
-    <section id="blog_post_citations" class="h-entry">
-      <header class="headers"><h1 class="p-name">Citations</h1></header>
-      <article>
         <p class="e-content">
-          <cite
-            >[1] Goldberg, P. (2022) ‘A crash course in user experience [+]
-            interface design’ [Lecture], WSOA3028A: Interactive Media IIIA.
-            University of the Witwatersrand, Johannesburg.
-          </cite>
+          The UI and UX concepts I used for my website were found in a lecture
+          that was given by Peta Goldberg. User Experience (UX) is what allows a
+          person to perform actions on an interface. User Interface (UI) is what
+          gives the interface an aesthetic and creates an emotional connection
+          with the user. [1]
+        </p>
+
+        <p class="e-content">
+          Why is this important? The reason we make a website is for a user to
+          traverse through it and experience the content that is on the website.
+          Without UX and UI people probably will not interact with your website.
+          As mentioned, the UI creates an emotional connection with the user. If
+          the UI is designed poorly the user may establish a bad emotional
+          connection with the website and hence, they probably will not come
+          back to the website. As a designer and developer, you want people to
+          come back and possibly even share it with people that they know. So UX
+          and UI design is important. [1]
+        </p>
+
+        <header class="paragraph_headers">
+          <h2>What could be better or is a bad idea?</h2>
+        </header>
+
+        <p class="e-content">
+          I’m going to start with what could be better or what was a bad design
+          choice. I prefer to end on a good note.
+        </p>
+
+        <header class="paragraph_subheaders">
+          <h3>Design Section:</h3>
+        </header>
+        <p class="e-content">
+          In the design section I embedded a pdf for the style guide and
+          wireframes. I had seen this used on other websites, but it was
+          probably also because I was lazy to do the CSS and HTML for this
+          section. So, I just assumed that it was a standard thing to do on a
+          website. It also made sense to me to have that stuff in a pdf.
+          However, from feedback and looking at it again it does work but it
+          seems quite disconnected from my websites experience. My website uses
+          dark colours. The embedded pdf is white and the page numbers at the
+          top have a different font. This does feel weird and sort of creates a
+          disconnect from what I have put on the page and the style that I am
+          going for. It creates a negative emotional connection which is what I
+          don’t want. I will reimplement this using HTML and CSS.
+        </p>
+        <header class="paragraph_subheaders">
+          <h3>Responsiveness:</h3>
+        </header>
+        <p class="e-content"></p>
+        <header class="paragraph_subheaders">
+          <h3>About me section:</h3>
+        </header>
+
+        <p class="e-content">
+          Due to time constraints the about me section is not very interesting.
+          It needs more work and more styling just so that it does not feel as
+          if it is completely different to everything else and therefore
+          creating a negative emotional response. The same goes for the contact
+          me section.
+        </p>
+
+        <header class="paragraph_subheaders">
+          <h3>General Stuff:</h3>
+        </header>
+
+        <p class="e-content">
+          I don’t have a footer or header and the text of blog posts for example
+          are quite close to the top and the bottom which makes navigating and
+          reading the blog posts difficult near the top and the bottom.
+        </p>
+
+        <p class="e-content">
+          The blog posts make up a large chunk of the content on the website and
+          so people will spend a large amount of time there. I would like to
+          make this area the most comfortable because of that.
+        </p>
+
+        <p class="e-content">
+          The fonts I chose were based off the lectures which shows that in
+          general serif fonts are good to use for readability [1]. However, the
+          font that I chose although it is serif, could probably be better in
+          terms of readability. It does work but I do think I could choose a
+          different style of serif font for the fonts that are not headings. The
+          headings are using san serif. For now, it is working but it has been
+          suggested to try and make them both serifs. I am using iterative
+          design to make my website so I will try with both using serif and vice
+          versa to see which one people prefer.
+        </p>
+
+        <p class="e-content">
+          The blog section opens a new tab when you click on a blog post.
+          Although this is the way that I prefer to view things on the web it is
+          not the standard. If it’s the same site, then it’s better to just
+          redirect the user to the blog post rather than opening it up in a new
+          tab.
+        </p>
+
+        <p class="e-content">
+          Feedback is also important with user interfaces. I would like to add
+          some feedback on tabs like when someone is on blog post 1 then that
+          button or link is highlighted.
+        </p>
+
+        <header class="paragraph_headers">
+          <h2>What is working?</h2>
+        </header>
+        <p class="e-content">
+          I’ll start with the home page. I tried to make use of a law called the
+          Hick’s Law and I used a call to action (CTA). Hick’s Law states that,
+          “The time it takes to make a decision increases with the number of
+          complexity choices [1].” I implemented this with the different
+          sections that you can go to on my website. I did not add more than
+          what I needed and so people don’t feel overwhelmed with the choices
+          they have.
+        </p>
+        <p class="e-content">
+          The CTA I used to try and interest a user in finding out more about
+          me. I would like to add more for the blog posts and the portfolio
+          pieces.
+        </p>
+        <p class="e-content">
+          The home page also made use of the Law of Locality [1]. These are as
+          follows:
+        </p>
+        <p class="e-content">
+          • Law 1: “Put an element where it will effect change [1].”
+        </p>
+        <p class="e-content">
+          • Law 2: “If an element effects change across the entire area, put it
+          above the area [1].”
+        </p>
+        <p class="e-content">
+          • Law 3: “If an element is far from where it effects change, make it
+          pop [1].”
+        </p>
+
+        <p class="e-content">
+          I used these laws for the redirect links in the nav bar. They affect
+          the entire area of the website when clicked on and so put it right at
+          the top of the website. I was originally going to put these links
+          along the left side of the page but with the number of links and with
+          a 1080p screen it seemed underwhelming and empty and so spreading them
+          across the top made the nav bar feel fuller and appeared to be better
+          due to the law of locality [1].
+        </p>
+        <p class="e-content">
+          The blog section shows a snippet of the blog. The idea behind this was
+          by using the Zeigarnik Effect. The Zeigarnik Effect is as follows,
+          “People remember uncompleted or interrupted tasks better than
+          completed tasks [1].” I was trying to pique interest in the user to
+          read the blogs by only giving some of the blog post.
+        </p>
+        <p class="e-content">
+          I wanted my site to be friendly and not formal or business like. To
+          give that feeling I chose a background picture that is formal. All the
+          text or buttons with a coloured background are rounded. This creates a
+          more friendly visual to the site which is what I wanted. [1]
         </p>
       </article>
-    </section>
-    <footer></footer>
+
+      <section id="blog_post_citations" class="h-entry">
+        <header class="headers"><h1 class="p-name">Citations</h1></header>
+        <article>
+          <p class="e-content">
+            <cite
+              >[1] Goldberg, P. (2022) ‘A crash course in user experience [+]
+              interface design’ [Lecture], WSOA3028A: Interactive Media IIIA.
+              University of the Witwatersrand, Johannesburg.
+            </cite>
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer class="footer"><p class="footer-text">Placeholder Text</p></footer>
   </body>
 </html>

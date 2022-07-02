@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="../CSS/blogs.css" />
     <link rel="stylesheet" href="../CSS/navbar.css" />
+    <link rel="stylesheet" href="../CSS/footer.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap"
       rel="stylesheet"
@@ -23,6 +24,7 @@
     />
     <script defer src="../JavaScript/blog.js"></script>
     <script defer src="../JavaScript/navbar_toggle.js"></script>
+    <script defer src="../JavaScript/footer.js"></script>
   </head>
   <body>
     <nav class="h-card nav-bar">
@@ -43,136 +45,139 @@
       </section>
     </nav>
 
-    <article id="blog_post" class="h-entry">
-      <header class="headers">
-        <h1 class="p-name">What is Metadata and why do we use it?</h1>
-      </header>
+    <main>
+      <article id="blog_post" class="h-entry">
+        <header class="headers">
+          <h1 class="p-name">What is Metadata and why do we use it?</h1>
+        </header>
 
-      <header class="paragraph_headers">
-        <h2>What is Metadata?</h2>
-      </header>
+        <header class="paragraph_headers">
+          <h2>What is Metadata?</h2>
+        </header>
 
-      <p class="e-content">
-        Metadata when searched shows data used to describe information about
-        other data. This is vague however a useful definition as there are many
-        different types of metadata. [1] A basic example of metadata is for a
-        book. There is the publisher, the author, date of publication and name
-        of the book. The data will be the words that are in the book that tell
-        the story.
-      </p>
-
-      <header class="paragraph_headers">
-        <h2>Why use Metadata?</h2>
-      </header>
-
-      <p class="e-content">
-        Metadata makes it easier to find certain data. Using the above example,
-        we can use the name of the author and the name of the book to find it in
-        a library or on the internet if it was published on the internet. This
-        is descriptive metadata. It describes different characteristics of the
-        data. Another example is when a photo is taken with your phone. When
-        taken your phone for can store the location it was taken, what day it
-        was taken, and the time it was taken. [2]
-      </p>
-
-      <p class="e-content">
-        Other types of metadata include structural metadata, process metadata,
-        reference metadata, and statistical metadata. All these metadata’s help
-        describe information about other data so that the data can be easily
-        accessed. [2] So, what metadata can be used in html scripts to help with
-        accessing our websites?
-      </p>
-
-      <header class="paragraph_headers">
-        <h2>How do we use Metadata in HTML?</h2>
-      </header>
-
-      <p class="e-content">
-        The metadata used in html scripts allows the web browser to obtain a
-        description of the webpage. This helps the browser understand what is
-        contained in the webpage from the character set, cookies, and keywords.
-        [2]
-      </p>
-      <p class="e-content">
-        The most important thing when you have a website is to get users of the
-        internet to click on your website. To do so you need to tell the search
-        engine to try and recommend your webpage according to the keywords that
-        the user has entered in the search engine. [2]
-      </p>
-      <p class="e-content">
-        This is done with meta data in the html scripts. This would be done by
-        using the &lt;meta&gt; tag. It will look something like this
-      </p>
-      <p class="e-content">
-        &lt;meta name=“keywords” content=“metadata, meta tags, what is meta
-        data” /&gt; [2]
-      </p>
-      <p class="e-content">
-        This allows the search engine to possibly suggest your website when
-        these keywords are entered into the search bar in the web browser. [3]
-      </p>
-      <p class="e-content">
-        When people do research or want to find something out about a certain
-        topic one of the most important aspects is when that research was
-        written or when it was last updated and revised. Metadata allows you to
-        revise the date you last edited a webpage as that would be descriptive
-        metadata. [3]
-      </p>
-      <p class="e-content">
-        Something that often occurs when users are on a website is redirecting
-        to different pages. Let’s say you want the redirect to take some time
-        and not be instant. You can use a &lt;meta&gt; tag to ensure that there
-        is a bit of time between the users input and the redirect. [3]
-      </p>
-      <p class="e-content">
-        Other examples include cookies which are practically on every website a
-        user visits. You can then determine whether you want the cookie settings
-        to be deleted after the user leaves the browser or after a certain
-        amount of time. The character set is also an important piece of metadata
-        as it allows the browser to encode and decode what characters are being
-        used for the webpage. [3]
-      </p>
-      <p class="e-content">
-        The number of metadata that can be used is not endless but is vast.
-        There are also many more types of metadata, but it all helps in finding
-        and analysing other data much easier for a user.
-      </p>
-    </article>
-
-    <section id="blog_post_citations" class="h-entry">
-      <header class="headers"><h1 class="p-name">Citations</h1></header>
-      <article>
         <p class="e-content">
-          [1] Wikipedia, "Wikipedia," 2022 March 31. [Online]. Available:
-          <cite>https://en.wikipedia.org/wiki/Metadata</cite> [Accessed 11 April
-          2022].
+          Metadata when searched shows data used to describe information about
+          other data. This is vague however a useful definition as there are
+          many different types of metadata. [1] A basic example of metadata is
+          for a book. There is the publisher, the author, date of publication
+          and name of the book. The data will be the words that are in the book
+          that tell the story.
+        </p>
+
+        <header class="paragraph_headers">
+          <h2>Why use Metadata?</h2>
+        </header>
+
+        <p class="e-content">
+          Metadata makes it easier to find certain data. Using the above
+          example, we can use the name of the author and the name of the book to
+          find it in a library or on the internet if it was published on the
+          internet. This is descriptive metadata. It describes different
+          characteristics of the data. Another example is when a photo is taken
+          with your phone. When taken your phone for can store the location it
+          was taken, what day it was taken, and the time it was taken. [2]
+        </p>
+
+        <p class="e-content">
+          Other types of metadata include structural metadata, process metadata,
+          reference metadata, and statistical metadata. All these metadata’s
+          help describe information about other data so that the data can be
+          easily accessed. [2] So, what metadata can be used in html scripts to
+          help with accessing our websites?
+        </p>
+
+        <header class="paragraph_headers">
+          <h2>How do we use Metadata in HTML?</h2>
+        </header>
+
+        <p class="e-content">
+          The metadata used in html scripts allows the web browser to obtain a
+          description of the webpage. This helps the browser understand what is
+          contained in the webpage from the character set, cookies, and
+          keywords. [2]
+        </p>
+        <p class="e-content">
+          The most important thing when you have a website is to get users of
+          the internet to click on your website. To do so you need to tell the
+          search engine to try and recommend your webpage according to the
+          keywords that the user has entered in the search engine. [2]
+        </p>
+        <p class="e-content">
+          This is done with meta data in the html scripts. This would be done by
+          using the &lt;meta&gt; tag. It will look something like this
+        </p>
+        <p class="e-content">
+          &lt;meta name=“keywords” content=“metadata, meta tags, what is meta
+          data” /&gt; [2]
+        </p>
+        <p class="e-content">
+          This allows the search engine to possibly suggest your website when
+          these keywords are entered into the search bar in the web browser. [3]
+        </p>
+        <p class="e-content">
+          When people do research or want to find something out about a certain
+          topic one of the most important aspects is when that research was
+          written or when it was last updated and revised. Metadata allows you
+          to revise the date you last edited a webpage as that would be
+          descriptive metadata. [3]
+        </p>
+        <p class="e-content">
+          Something that often occurs when users are on a website is redirecting
+          to different pages. Let’s say you want the redirect to take some time
+          and not be instant. You can use a &lt;meta&gt; tag to ensure that
+          there is a bit of time between the users input and the redirect. [3]
+        </p>
+        <p class="e-content">
+          Other examples include cookies which are practically on every website
+          a user visits. You can then determine whether you want the cookie
+          settings to be deleted after the user leaves the browser or after a
+          certain amount of time. The character set is also an important piece
+          of metadata as it allows the browser to encode and decode what
+          characters are being used for the webpage. [3]
+        </p>
+        <p class="e-content">
+          The number of metadata that can be used is not endless but is vast.
+          There are also many more types of metadata, but it all helps in
+          finding and analysing other data much easier for a user.
         </p>
       </article>
 
-      <article>
-        <p class="e-content">
-          G. Kranz, "Tech Target," July 2021. [Online]. Available:
-          <cite>https://www.techtarget.com/whatis/definition/metadata</cite>
-          [Accessed 11 April 2022].
-        </p>
-      </article>
+      <section id="blog_post_citations" class="h-entry">
+        <header class="headers"><h1 class="p-name">Citations</h1></header>
+        <article>
+          <p class="e-content">
+            [1] Wikipedia, "Wikipedia," 2022 March 31. [Online]. Available:
+            <cite>https://en.wikipedia.org/wiki/Metadata</cite> [Accessed 11
+            April 2022].
+          </p>
+        </article>
 
-      <article>
-        <p class="e-content">
-          T. Point, "Tutorials Point," [Online]. Available:
-          <cite>https://www.tutorialspoint.com/html/html_meta_tags</cite>
-          [Accessed 11 April 2022].
-        </p>
-      </article>
+        <article>
+          <p class="e-content">
+            G. Kranz, "Tech Target," July 2021. [Online]. Available:
+            <cite>https://www.techtarget.com/whatis/definition/metadata</cite>
+            [Accessed 11 April 2022].
+          </p>
+        </article>
 
-      <article>
-        <p class="e-content">
-          P. Kononow, "Dataedo," 16 September 2018. [Online]. Available:
-          <cite>https://dataedo.com/kb/data-glossary/what-is-metadata</cite>
-          [Accessed 11 April 2022].
-        </p>
-      </article>
-    </section>
-    <footer></footer>
+        <article>
+          <p class="e-content">
+            T. Point, "Tutorials Point," [Online]. Available:
+            <cite>https://www.tutorialspoint.com/html/html_meta_tags</cite>
+            [Accessed 11 April 2022].
+          </p>
+        </article>
+
+        <article>
+          <p class="e-content">
+            P. Kononow, "Dataedo," 16 September 2018. [Online]. Available:
+            <cite>https://dataedo.com/kb/data-glossary/what-is-metadata</cite>
+            [Accessed 11 April 2022].
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer"><p class="footer-text">Placeholder Text</p></footer>
   </body>
 </html>
