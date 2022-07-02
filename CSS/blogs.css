@@ -8,6 +8,10 @@ body{
     height: 100vh;
 }
 
+main {
+    min-height: calc(100vh - 6vh - 3rem); 
+}
+
 body .headers{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;

@@ -14,11 +14,8 @@ body .headers{
     font-weight: bold;
 }
 
-footer {
-    height: 100px;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
+main {
+    min-height: calc(100vh - 6vh - 3rem);
 }
 /*Classes for the Design page*/
 

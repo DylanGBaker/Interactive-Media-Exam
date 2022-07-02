@@ -14,6 +14,10 @@ body .headers{
     font-weight: bold;
 }
 
+main {
+    min-height: calc(100vh - 6vh - 3rem);
+}
+
 /*Classes for the Portfolio page*/
 
 .portfolio {
