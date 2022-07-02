@@ -21,7 +21,7 @@ const blog_post_list_text = [blog_post_one_preview_text, blog_post_two_preview_t
 
 function getRandomBlogPost() {
     var getRandomNumber = Math.floor(Math.random() * 3) ;
-    document.getElementById("home_blog_section_content").innerHTML = blog_post_list_text[getRandomNumber]; 
+    document.getElementById("home-blog-section-content").innerHTML = blog_post_list_text[getRandomNumber]; 
 }
 
 //////////////////////////////////////////////////////////////////////

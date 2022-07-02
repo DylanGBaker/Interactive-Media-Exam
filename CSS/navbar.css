@@ -42,11 +42,11 @@
     margin-left: 1rem;
 }
 
-.Hamburger_Logo {
+.hamburger-logo {
     display: none;
 }
 
-.Hamburger_Logo section{
+.hamburger-logo section{
     background-color: white;
     height: 5px;
     width: 30px;
@@ -63,7 +63,7 @@
     body {
         overflow-x: hidden;
     }
-    .Hamburger_Logo {
+    .hamburger-logo {
         display: block;
     }
 
@@ -93,6 +93,6 @@
     }
 }
 
-.nav-bar .toggle_nav {
+.nav-bar .toggle-nav {
     transform: translateX(0%);   
 }

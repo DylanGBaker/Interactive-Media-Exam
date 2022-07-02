@@ -1,8 +1,8 @@
 function NavSlide() {
-    const hamBurger = document.querySelector(".Hamburger_Logo");
+    const hamBurger = document.querySelector(".hamburger-logo");
     const nav = document.querySelector(".nav-list");
     hamBurger.addEventListener("click", e => {
-         nav.classList.toggle("toggle_nav");
+         nav.classList.toggle("toggle-nav");
     });
 }
 
