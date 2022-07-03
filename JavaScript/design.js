@@ -42,3 +42,4 @@ function RunEvents() {
 }
 
 RunEvents();
+console.log(window.location.pathname);
