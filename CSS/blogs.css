@@ -119,6 +119,10 @@ body .headers{
     #blog_post.h-entry {
         margin: 10px;
     }
+
+    #blog_post_citations.h-entry{
+        margin: 50px 10px;
+    }
 }
 
 @media screen and (max-width: 850px) {
