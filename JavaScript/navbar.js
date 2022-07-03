@@ -8,7 +8,8 @@ function InitialiseFilePaths() {
     else if (window.location.pathname == "/Design/design.html"){ filePaths = ["../index.html", "../Blogs/blog.html", "design.html", "../Portfolio/portfolio.html", "../Contact/contact.html"];}
     else if (window.location.pathname == "/Portfolio/portfolio.html"){ filePaths = ["../index.html", "../Blogs/blog.html", "../Design/design.html", "portfolio.html", "../Contact/contact.html"];}
     else if (window.location.pathname == "/Contact/contact.html"){ filePaths = ["../index.html", "../Blogs/blog.html", "../Design/design.html", "../Portfolio/portfolio.html", "contact.html"];}
-    console.log(filePaths);
+    else if (window.location.pathname == "/About/about.html"){filePaths = ["../index.html", "../Blogs/blog.html", "../Design/design.html", "../Portfolio/portfolio.html", "../Contact/contact.html"];}
+    else {filePaths = ["../index.html", "blog.html", "../Design/design.html", "../Portfolio/portfolio.html", "../Contact/contact.html"];}
 }
 
 function GetNewPageLocation(i) {
