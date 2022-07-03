@@ -1,9 +1,9 @@
 const navBarLinks = document.querySelectorAll(".navlink");
 var filePaths = []; 
-console.log(window.location.pathname);
+
 
 function InitialiseFilePaths() {
-    if (window.location.pathname == "/index.html"){ filePaths = ["index.html", "Blogs/blog.html", "Design/design.html", "Portfolio/portfolio.html", "Contact/contact.html"];}
+    if (window.location.pathname == "/index.html"){ filePaths = ["index.html", "/Blogs/blog.html", "/Design/design.html", "/Portfolio/portfolio.html", "/Contact/contact.html"];}
     else if (window.location.pathname == "/Blogs/blog.html"){ filePaths = ["../index.html", "blog.html", "../Design/design.html", "../Portfolio/portfolio.html", "../Contact/contact.html"];}
     else if (window.location.pathname == "/Design/design.html"){ filePaths = ["../index.html", "../Blogs/blog.html", "design.html", "../Portfolio/portfolio.html", "../Contact/contact.html"];}
     else if (window.location.pathname == "/Portfolio/portfolio.html"){ filePaths = ["../index.html", "../Blogs/blog.html", "../Design/design.html", "portfolio.html", "../Contact/contact.html"];}
@@ -23,8 +23,18 @@ function NavBarClickEvents() {
     navBarLinks[4].addEventListener("click", e => GetNewPageLocation(4));
 }
 
-function RunEvents() {
+function NavSlide() {
+    const hamBurger = document.querySelector(".hamburger-logo");
+    const nav = document.querySelector(".nav-list");
+    hamBurger.addEventListener("click", e => {
+         nav.classList.toggle("toggle-nav");
+    });
+}
+
+function RunApp() {
     InitialiseFilePaths();
     NavBarClickEvents();
+    NavSlide();
 }
-RunEvents();
+
+RunApp();
