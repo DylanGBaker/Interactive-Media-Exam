@@ -2,13 +2,13 @@ const navBarLinks = document.querySelectorAll(".navlink");
 var filePaths = ["placeholder text"]; 
 
 function InitialiseFilePaths() {
-    if (window.location.pathname == "/index.html"){ filePaths = ["index.html", "/Blogs/blog.html", "/Design/design.html", "/Portfolio/portfolio.html", "/Contact/contact.html"];}
-    else if (window.location.pathname == "/Blogs/blog.html"){ filePaths = ["../index.html", "blog.html", "../Design/design.html", "../Portfolio/portfolio.html", "../Contact/contact.html"];}
-    else if (window.location.pathname == "/Design/design.html"){ filePaths = ["../index.html", "../Blogs/blog.html", "design.html", "../Portfolio/portfolio.html", "../Contact/contact.html"];}
-    else if (window.location.pathname == "/Portfolio/portfolio.html"){ filePaths = ["../index.html", "../Blogs/blog.html", "../Design/design.html", "portfolio.html", "../Contact/contact.html"];}
-    else if (window.location.pathname == "/Contact/contact.html"){ filePaths = ["../index.html", "../Blogs/blog.html", "../Design/design.html", "../Portfolio/portfolio.html", "contact.html"];}
-    else if (window.location.pathname == "/About/about.html"){filePaths = ["../index.html", "../Blogs/blog.html", "../Design/design.html", "../Portfolio/portfolio.html", "../Contact/contact.html"];}
-    else {filePaths = ["../index.html", "blog.html", "../Design/design.html", "../Portfolio/portfolio.html", "../Contact/contact.html"];}
+    if (window.location.pathname == "/Interactive-Media-Exam/index.html"){ filePaths = ["/Interactive-Media-Exam/index.html", "/Interactive-Media-Exam/Blogs/blog.html", "/Interactive-Media-Exam/Design/design.html", "/Interactive-Media-Exam/Portfolio/portfolio.html", "/Interactive-Media-Exam/Contact/contact.html"];}
+    else if (window.location.pathname == "/Interactive-Media-Exam/Blogs/blog.html"){ filePaths = ["../Interactive-Media-Exam/index.html", "/Interactive-Media-Exam/blog.html", "../Interactive-Media-Exam/Design/design.html", "../Interactive-Media-Exam/Portfolio/portfolio.html", "../Interactive-Media-Exam/Contact/contact.html"];}
+    else if (window.location.pathname == "/Interactive-Media-Exam/Design/design.html"){ filePaths = ["../Interactive-Media-Exam/index.html", "../Interactive-Media-Exam/Blogs/blog.html", "/Interactive-Media-Exam/design.html", "../Interactive-Media-Exam/Portfolio/portfolio.html", "../Interactive-Media-Exam/Contact/contact.html"];}
+    else if (window.location.pathname == "/Interactive-Media-Exam/Portfolio/portfolio.html"){ filePaths = ["../Interactive-Media-Exam/index.html", "../Interactive-Media-Exam/Blogs/blog.html", "../Interactive-Media-Exam/Design/design.html", "/Interactive-Media-Exam/portfolio.html", "../Interactive-Media-Exam/Contact/contact.html"];}
+    else if (window.location.pathname == "/Interactive-Media-Exam/Contact/contact.html"){ filePaths = ["../Interactive-Media-Exam/index.html", "../Interactive-Media-Exam/Blogs/blog.html", "../Interactive-Media-Exam/Design/design.html", "../Interactive-Media-Exam/Portfolio/portfolio.html", "/Interactive-Media-Exam/contact.html"];}
+    else if (window.location.pathname == "/Interactive-Media-Exam/About/about.html"){filePaths = ["../Interactive-Media-Exam/index.html", "../Interactive-Media-Exam/Blogs/blog.html", "../Interactive-Media-Exam/Design/design.html", "../Interactive-Media-Exam/Portfolio/portfolio.html", "../Interactive-Media-Exam/Contact/contact.html"];}
+    else {filePaths = ["../Interactive-Media-Exam/index.html", "/Interactive-Media-Exam/blog.html", "../Interactive-Media-Exam/Design/design.html", "../Interactive-Media-Exam/Portfolio/portfolio.html", "../Interactive-Media-Exam/Contact/contact.html"];}
     console.log(window.location.pathname);
 }
 
