@@ -9,6 +9,7 @@ function InitialiseFilePaths() {
     else if (window.location.pathname == "/Contact/contact.html"){ filePaths = ["../index.html", "../Blogs/blog.html", "../Design/design.html", "../Portfolio/portfolio.html", "contact.html"];}
     else if (window.location.pathname == "/About/about.html"){filePaths = ["../index.html", "../Blogs/blog.html", "../Design/design.html", "../Portfolio/portfolio.html", "../Contact/contact.html"];}
     else {filePaths = ["../index.html", "blog.html", "../Design/design.html", "../Portfolio/portfolio.html", "../Contact/contact.html"];}
+    console.log(window.location.pathname);
 }
 
 function GetNewPageLocation(i) {
