@@ -1,18 +1,3 @@
-body{
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    font-family: 'Josefin Slab', serif;
-    background: rgba(0,0,0,0.4) url(../Test_Images/Website_Backgroundjpg.jpg) repeat fixed 100%;
-    background-blend-mode: darken;
-    background-size: cover; 
-}
-
-body .headers{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-}
-
 main {
     min-height: calc(100vh - 6vh - 3rem); 
 }

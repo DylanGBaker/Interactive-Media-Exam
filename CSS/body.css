@@ -1,0 +1,14 @@
+body{
+    font-family: 'Josefin Slab', serif;
+    background: rgba(0,0,0,0.4) url(../Test_Images/Website_Backgroundjpg.jpg) repeat fixed 100% ;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+body .headers{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
