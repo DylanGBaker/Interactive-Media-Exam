@@ -53,7 +53,7 @@ main {
 #blog-preview .u-url:hover {
     background: rgba(223, 45, 134, 0.8);
     text-decoration: underline;
-    border-radius: 10px;
+    border-radius: 70px;
     padding: 0.5%;
 }
 
@@ -80,7 +80,7 @@ main {
 #portfolio-preview .u-url:hover {
     background: rgba(223, 45, 134, 0.8);
     text-decoration: underline;
-    border-radius: 10px;
+    border-radius: 70px;
     padding: 0.5%;
 }
 
@@ -108,7 +108,7 @@ main {
     text-decoration: underline;
     background: rgba(223, 45, 134, 0.8);
     text-decoration: underline;
-    border-radius: 15px;
+    border-radius: 70px;
     padding: 0.5%;
 }
 
